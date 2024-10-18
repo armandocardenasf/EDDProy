@@ -17,6 +17,7 @@ namespace EDDemo.Estructuras_No_Lineales
             this.Dato = Dato;
             this.Izq = null;
             this.Der = null;
+            // CAMBIO
         }
     }
 }

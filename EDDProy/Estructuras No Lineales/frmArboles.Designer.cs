@@ -33,6 +33,7 @@ namespace EDDemo.Estructuras_No_Lineales
             this.btnAgregar = new System.Windows.Forms.Button();
             this.txtArbol = new System.Windows.Forms.TextBox();
             this.btnLimpiar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtDato
@@ -74,11 +75,22 @@ namespace EDDemo.Estructuras_No_Lineales
             this.btnLimpiar.UseVisualStyleBackColor = true;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(361, 91);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(124, 46);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Graph";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmArboles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtArbol);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnAgregar);
@@ -96,5 +108,6 @@ namespace EDDemo.Estructuras_No_Lineales
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.TextBox txtArbol;
         private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.Button button1;
     }
 }

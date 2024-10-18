@@ -36,6 +36,9 @@
     <Reference Include="Graphviz, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Graphviz.2.38.0.2\lib\Graphviz.dll</HintPath>
     </Reference>
+    <Reference Include="GraphVizWrapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GraphViz.NET.1.0.0\lib\net40\GraphVizWrapper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -72,6 +75,7 @@
     <Compile Include="Estructuras Lineales\frmPilas.Designer.cs">
       <DependentUpon>frmPilas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Graphviz.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Estructuras No Lineales\frmArboles.resx">
