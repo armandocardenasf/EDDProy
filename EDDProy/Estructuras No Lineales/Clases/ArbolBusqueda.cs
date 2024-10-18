@@ -53,7 +53,7 @@ namespace EDDemo.Estructuras_No_Lineales
             Muestra(nivel + 1, nodo.Der);
             for(int i=0; i<nivel; i++)
             {
-                strArbol = strArbol + "     ";
+                strArbol = strArbol + "      ";
             }
             strArbol = strArbol + nodo.Dato.ToString() + "\r\n";
             Muestra(nivel + 1, nodo.Izq); 
