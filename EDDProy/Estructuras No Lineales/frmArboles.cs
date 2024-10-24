@@ -33,7 +33,7 @@ namespace EDDemo.Estructuras_No_Lineales
             miRaiz = null;
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
+        private void btnInsertar_Click(object sender, EventArgs e)
         {
  
             //Obtenemos el nodo Raiz del arbol

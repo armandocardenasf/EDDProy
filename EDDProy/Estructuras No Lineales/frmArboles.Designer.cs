@@ -61,9 +61,9 @@ namespace EDDemo.Estructuras_No_Lineales
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(124, 46);
             this.btnAgregar.TabIndex = 1;
-            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.Text = "Insertar";
             this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            this.btnAgregar.Click += new System.EventHandler(this.btnInsertar_Click);
             // 
             // txtArbol
             // 
