@@ -35,7 +35,7 @@ namespace EDDemo.Estructuras_No_Lineales
 
         private void btnInsertar_Click(object sender, EventArgs e)
         {
- 
+
             //Obtenemos el nodo Raiz del arbol
             miRaiz = miArbol.RegresaRaiz();
 
@@ -156,7 +156,7 @@ namespace EDDemo.Estructuras_No_Lineales
 
             Random rnd = new Random();
 
-            for (int nNodos =1; nNodos < txtNodos.Value; nNodos++)
+            for (int nNodos =1; nNodos <= txtNodos.Value; nNodos++)
             {
                 int Dato = rnd.Next(1, 100);
                 //Obtenemos el nodo Raiz del arbol
