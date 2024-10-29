@@ -70,6 +70,7 @@ namespace EDDemo.Estructuras_No_Lineales
         private void btnGrafica_Click(object sender, EventArgs e)
         {
             String graphVizString;
+            String strOrientacion = "";
 
             miRaiz = miArbol.RegresaRaiz();
             if (miRaiz == null)
@@ -78,8 +79,13 @@ namespace EDDemo.Estructuras_No_Lineales
                 return;
             }
 
+            if (rbOrientacion2.Checked)
+            {
+                strOrientacion = "rankdir=\"LR\";";
+            }
             StringBuilder b = new StringBuilder();
-            b.Append("digraph G { node [shape=\"circle\"]; " + Environment.NewLine);
+            //rankdir="LR";
+            b.Append("digraph G { " + strOrientacion + " node [shape=\"circle\"]; " + Environment.NewLine);
             b.Append(miArbol.ToDot(miRaiz));
             b.Append("}");
             graphVizString =  b.ToString();

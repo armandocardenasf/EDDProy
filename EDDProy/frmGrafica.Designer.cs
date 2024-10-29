@@ -34,10 +34,12 @@
             // 
             // picGrafica
             // 
+            this.picGrafica.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picGrafica.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picGrafica.Location = new System.Drawing.Point(0, 0);
             this.picGrafica.Name = "picGrafica";
-            this.picGrafica.Size = new System.Drawing.Size(947, 534);
+            this.picGrafica.Size = new System.Drawing.Size(1303, 886);
+            this.picGrafica.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.picGrafica.TabIndex = 0;
             this.picGrafica.TabStop = false;
             // 
@@ -45,13 +47,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(947, 534);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1303, 886);
             this.Controls.Add(this.picGrafica);
             this.Name = "frmGrafica";
             this.Text = "Grafica";
             this.Load += new System.EventHandler(this.frmGrafica_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picGrafica)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
